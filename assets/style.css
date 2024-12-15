@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+/* Responsive for mobile */
 @media only screen and (max-width: 600px) {
     body {
         margin-top: 70px;
@@ -109,6 +110,55 @@
 
     footer .container .contact-info{
         margin-top: 20px;
+    }
+}
+
+/* Responsive for pad */
+
+@media only screen and (max-width: 1366px) {
+    /* Education */
+    section#education .container .card-education img {
+        height: 130px !important;
+    }
+
+    /* Experience and more */
+    section#experience .container,
+    section#certificate .container,
+    section#projects .container,
+    section#skills .container {
+        display: block !important;
+    }
+
+    section#experience .container .card-experience img,
+    section#certificate .container .card-certificate img,
+    section#projects .container .card-project img,
+    section#skills .container .card-skills img {
+        width: 100%;
+        height: 50% !important;
+    }
+
+    section#experience .container .card-experience,
+    section#certificate .container .card-certificate,
+    section#projects .container .card-project,
+    section#skills .container .card-skills {
+        margin: 20px 0;
+    }
+
+    /* Contact */
+    section#message .container {
+        display: block !important;
+    } 
+
+    section#message .container .img-message {
+        text-align: center;
+    }
+
+    section#message .container form .form input, textarea {
+        width: 100% !important;
+    }
+
+    section#message .container form .form label {
+        margin-top: 10px;
     }
 }
 
