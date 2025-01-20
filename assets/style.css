@@ -111,6 +111,16 @@
     footer .container .contact-info{
         margin-top: 20px;
     }
+
+    /* Image details */
+    section#img-detail .container .img-details {
+        display: block !important;
+        text-align: center;
+    }
+    
+    section#img-detail .container .img-details img {
+        width: 100%;
+    }
 }
 
 /* Responsive for pad */
@@ -159,6 +169,16 @@
 
     section#message .container form .form label {
         margin-top: 10px;
+    }
+    
+    /* Image details */
+    section#img-detail .container .img-details {
+        display: block !important;
+        text-align: center;
+    }
+    
+    section#img-detail .container .img-details img {
+        width: 100%;
     }
 }
 
