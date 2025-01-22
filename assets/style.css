@@ -120,6 +120,8 @@
     
     section#img-detail .container .img-details img {
         width: 100%;
+        height: 50%;
+        margin: 0;
     }
 }
 
